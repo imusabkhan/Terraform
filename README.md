@@ -1,11 +1,1 @@
-# Terraform
-
-
-###Follow the command sequence to run the AWS EC2 instance via terraform.
-terraform init
-terraform plan
-terraform apply -auto-approve
-
-
-####Delete the Resources created by terraform
-terraform destroy -auto-approve
+<h1>This Terraform code repository contains the necessary configuration to deploy a Dockerized version of Damn Vulnerable Web Application (DVWA) on an Amazon EC2 instance. DVWA is a vulnerable web application used for security testing and learning.</h1>

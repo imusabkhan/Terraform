@@ -7,6 +7,7 @@
     <li>Deploys DVWA web application on an EC2 instance.</li>
 <li>Accessible on port 80 of the EC2 instance's public IP address.</li>
 <li>Public IP address of the EC2 instance is displayed after execution.</li>
+  </ul>
   </p>
 
 <h2>Prerequisites</h2>
@@ -16,4 +17,5 @@
     <li>AWS account with appropriate permissions.</li>
 <li>Terraform installed on your local machine.</li>
 <li>AWS CLI configured with your credentials.</li>
+    </ul>
   </p>

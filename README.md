@@ -9,3 +9,11 @@
 <li>Public IP address of the EC2 instance is displayed after execution.</li>
   </p>
 
+<h2>Prerequisites</h2>
+<p>Before running this Terraform configuration, ensure you have the following prerequisites:</p>
+<p>
+  <ul>
+    <li>AWS account with appropriate permissions.</li>
+<li>Terraform installed on your local machine.</li>
+<li>AWS CLI configured with your credentials.</li>
+  </p>

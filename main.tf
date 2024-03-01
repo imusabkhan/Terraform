@@ -114,3 +114,7 @@ resource "aws_instance" "Docker_Terraform" {
     ]
   }
 }
+
+output "public_ip" {
+  value = aws_instance.Docker_Terraform.public_ip
+}

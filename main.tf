@@ -78,6 +78,11 @@ resource "aws_key_pair" "tf-keys" {
   public_key = tls_private_key.tf-rsa.public_key_openssh
 }
 
+resource "local_file" "ssh_key" {
+  filename = "ssh_private_key.pem"
+  content  = tls_private_key.tf-rsa.private_key_pem
+}
+
 # Create EC2 instance
 resource "aws_instance" "Docker_Terraform" {
   ami                         = "ami-0fa377108253bf620"

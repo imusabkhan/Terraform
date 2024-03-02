@@ -24,8 +24,9 @@ Before running this Terraform configuration, ensure you have the following prere
   cd Terraform
 ```
 3. Run `terraform init` to initialize the Terraform configuration.
-4. Run `terraform apply` to create the EC2 instance.
-5. Once the execution is complete, the public IP address of the EC2 instance will be displayed.
+4. Run terraform plan to review the changes that will be applied.
+5. Run `terraform apply` to create the EC2 instance.
+6. Once the execution is complete, the public IP address of the EC2 instance will be displayed.
 
 ## Accessing DVWA
 

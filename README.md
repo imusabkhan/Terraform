@@ -28,6 +28,11 @@ Before running this Terraform configuration, ensure you have the following prere
 5. Run `terraform apply` to create the EC2 instance.
 6. Once the execution is complete, the public IP address of the EC2 instance will be displayed.
 
+#### Note: To destroy the resources created with Terraform, use the following command:
+```sh
+terraform destroy -auto-approve
+```
+
 ## Accessing DVWA
 
 After the EC2 instance is provisioned, you can access DVWA by navigating to the public IP address of the instance in your web browser, followed by port 80.
